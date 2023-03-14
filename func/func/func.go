@@ -4,8 +4,10 @@ import "fmt"
 
 func main() {
 
-	sum := funcReturnFunc(10)
-	fmt.Println(sum(20))
+	sum10 := funcReturnFunc(10)
+	fmt.Println(sum10(20))
+
+	fmt.Println(funcReturnFunc(10)(3))
 
 }
 
