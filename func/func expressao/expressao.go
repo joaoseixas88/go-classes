@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	// funcao como expressao => igual a const func do js
+	// funcao como expressao
 	function := func(x int) {
 		fmt.Println(x)
 	}
